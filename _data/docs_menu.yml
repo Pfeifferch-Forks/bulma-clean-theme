@@ -2,6 +2,8 @@
   items:
     - name: Installation
       link: /docs/getting-started/installation/
+    - name: Upgrading to v1
+      link: /docs/getting-started/upgrading-to-v1/
     - name: Configuration
       link: /docs/getting-started/configuration/
     - name: Theming
@@ -30,6 +32,16 @@
     - name: Table of Contents
       link: /docs/pages/table-of-contents/
 
+- label: Promo Pages
+  items:
+    - name: Creating a promo page
+      link: /docs/promo-pages/creating-a-promo-page/
+
+- label: Links Pages
+  items:
+    - name: Creating a links page
+      link: /docs/links-pages/creating-a-links-page/
+
 - label: Posts
   items:
     - name: Creating a Post
@@ -43,6 +55,8 @@
   items: 
     - name: Callouts
       link: /docs/page-components/callouts/
+    - name: Cookie Banner
+      link: /docs/page-components/cookie-banner/
     - name: Image Gallery
       link: /docs/page-components/image-gallery/
     - name: Image Modal

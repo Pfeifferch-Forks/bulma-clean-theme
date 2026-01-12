@@ -4,7 +4,7 @@ subtitle: Product 1 tagline here
 description: This is a product description
 product_code: ABC124
 layout: product
-image: https://via.placeholder.com/640x480
+image: https://picsum.photos/id/10/600/480
 price: £1.99 + VAT
 features:
     - label: Great addition to any home
@@ -14,6 +14,11 @@ features:
     - label: Available in multiple sizes
       icon: fa-fighter-jet
 rating: 3
+buttons:
+    - url: https://example.com/product/ABC124
+      text: Buy it now
+      class: is-primary
+      icon: fa-shopping-cart
 ---
 
 This is the content about the product.

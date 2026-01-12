@@ -14,6 +14,7 @@ gh_sponsor: chrisrhymes
 #theme_color: '#eeeeee'
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
+force_theme: light
 
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -49,8 +50,11 @@ livereload: true
 sass:
   style: compressed
   source_dir: _sass
+  # load_paths: 
+    # - node_modules
 
 #google_analytics: UA-code-here
+cookie_policy: /cookie-policy/
 
 defaults:
   -
@@ -66,7 +70,7 @@ defaults:
     values:
       author: "C.S. Rhymes"
       layout: post
-      image: https://via.placeholder.com/1200x800
+      image: https://picsum.photos/id/16/800/600
       show_sidebar: true
 
 markdown: kramdown
@@ -78,5 +82,14 @@ collections:
   products: 
     output: true
     layout: product
-    image: https://via.placeholder.com/800x600
+    image: https://picsum.photos/id/16/800/600
     show_sidebar: false
+
+social:
+  facebook: https://www.facebook.com/
+  instagram: https://www.instagram.com/
+  threads: https://www.threads.net/
+  tiktok: https://www.tiktok.com/
+  x: https://www.x.com/
+  youtube: https://www.youtube.com/
+  
